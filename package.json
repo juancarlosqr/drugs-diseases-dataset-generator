@@ -1,0 +1,19 @@
+{
+  "name": "drugs-diseases-dataset-generator",
+  "version": "1.0.0",
+  "description": "Random dataset generator of drugs and diseases",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules --ignore fixtures/ index.js"
+  },
+  "type": "module",
+  "author": "Juan Carlos Quintero",
+  "license": "MIT",
+  "dependencies": {
+    "casual": "^1.6.2",
+    "random-item": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
